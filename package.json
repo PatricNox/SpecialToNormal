@@ -1,0 +1,45 @@
+{
+  "name": "specialtonormal",
+  "version": "1.0.0",
+  "description": "Replace special characters to normalized letters",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "yarn build",
+    "build": "rollup -c && tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PatricNox/SpecialToNormal.git"
+  },
+  "keywords": [
+    "replace",
+    "regex",
+    "regexp",
+    "regular",
+    "expression",
+    "string",
+    "special",
+    "characters",
+    "preg"
+  ],
+  "author": {
+    "name": "PatricNox",
+    "email": "hello@patricnox.info"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PatricNox/SpecialToNormal/issues"
+  },
+  "homepage": "https://github.com/PatricNox/SpecialToNormal#readme",
+  "devDependencies": {
+    "@types/node": "^18.11.0",
+    "esbuild": "^0.14.38",
+    "rimraf": "^3.0.2",
+    "rollup": "^2.71.1",
+    "rollup-plugin-dts": "^4.2.1",
+    "rollup-plugin-esbuild": "^4.9.1"
+  },
+  "dependencies": {
+    "typescript": "^4.6.4"
+  }
+}

@@ -6,7 +6,7 @@ export default [
     plugins: [esbuild()],
     output: [
       {
-        file: 'dist/index.ts',
+        file: 'dist/index.js',
         format: 'cjs',
         sourcemap: true,
         exports: 'default'

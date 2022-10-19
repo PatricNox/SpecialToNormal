@@ -35,7 +35,7 @@ const normalized = normalizeSpecialCharacters('Jågävör');
 
 ## License
 
-This package is licensed under [GNU General Public License v2.0](https://github.com/PatricNox/SpecialToNormal/blob/release/LICENSE)
+This package is licensed under [MIT](https://github.com/PatricNox/SpecialToNormal/blob/release/LICENSE)
 
 
 ----------

@@ -1,13 +1,20 @@
 # 🌟 **SpecialToNormal**
-<p align="center">
 
-[![Open Source](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://opensource.org/)
+<div align="center">
 
-</p>
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  [![Open Source](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://opensource.org/)
 
-This package is used to convert special characters to their corresponding "normal" letter.
+[![npm package](https://img.shields.io/badge/package-npm-green)](https://www.npmjs.com/package/specialtonormal) [![yarn package](https://img.shields.io/badge/package-yarn-yellowgreen)](https://www.npmjs.com/package/specialtonormal)
 
-**This package helps you if..**:
+
+### This package is used to convert special characters to their corresponding "normal" letter.
+
+</div>
+
+<hr />
+
+**This package helps you if..**
 
 * You wish to replace those special letters that some languages has, like Swedish "åäö"
 
@@ -20,6 +27,7 @@ This package is used to convert special characters to their corresponding "norma
  ## Install
 
     $ npm install specialtonormal
+
 or
 
     $ yarn add specialtonormal
@@ -28,9 +36,8 @@ or
 
 ```js
 import normalizeSpecialCharacters from "specialtonormal";
-
-const normalized = normalizeSpecialCharacters('Jågävör');
-// => 'Jagavor'
+const normalized = normalizeSpecialCharacters('pátrîcnõx with swedish åäö');
+console.log(normalized);  //=> patricnox with swedish aao
 ```
 
 ## License
